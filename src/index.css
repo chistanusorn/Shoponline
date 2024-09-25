@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.relative {
+    position: relative;
+  }
+  
+  .absolute {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .hover\:flex:hover {
+    display: flex;
+  }
+  
+  .bg-black {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .max-h-full, .max-w-full {
+    max-height: 100%;
+    max-width: 100%;
+  }
+  .object-contain {
+    object-fit: contain;
+  }
+  
